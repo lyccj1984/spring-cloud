@@ -1,0 +1,14 @@
+server:
+  port: 8811
+
+spring:
+  application:
+    name: eurekacus
+
+eureka:
+  client:
+     registerWithEureka: true
+     fetchRegistry: true
+     serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+ 
